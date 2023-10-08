@@ -61,8 +61,6 @@ pub fn is_solved(board: &Board) -> bool {
 
 // Display the board on the console
 pub fn print_board(board: &Board) {
-    println!("    1     2     3     4");
-
     for (i, row) in board.iter().enumerate().rev() {
         println!("+-----+-----+-----+-----+");
 
